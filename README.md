@@ -1,11 +1,12 @@
 # customer-site
 
-The "customer's website" the Studio editor opens — a real Vite + React + **MUI** admin
-dashboard, deliberately on the heavier side (MUI core + `@mui/icons-material` +
-`@mui/x-data-grid` + recharts + framer-motion + react-query). That weight is the point:
-it makes `npm install` and Vite's first-start `optimizeDeps` non-trivial, so the demo's
-"install" and "wait-until-ready" steps reflect a realistic editor session rather than a
-toy. (~13k modules transformed in a production build.)
+The "customer's website" the Studio editor opens — a real Vite + React **ABM marketing
+landing page** (hero, logo cloud, feature grid, a results chart, testimonial, CTA,
+footer). It deliberately pulls a heavy, real-world dependency load (MUI core +
+`@mui/icons-material` + recharts + framer-motion + react-query; `@mui/x-data-grid` is
+installed too). That weight is the point: it makes `npm install` and Vite's first-start
+`optimizeDeps` non-trivial, so the demo's "install" and "wait-until-ready" steps reflect
+a realistic site rather than a toy — without looking like a dashboard.
 
 It also depends on a vendored mock of `@studio/sites` (a stand-in for Studio's private
 meta-framework) whose install runs a short sleep — representing the private-package cost
