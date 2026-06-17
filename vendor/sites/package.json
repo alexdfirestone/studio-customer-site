@@ -1,0 +1,10 @@
+{
+  "name": "@studio/sites",
+  "version": "0.0.0",
+  "description": "Mock of Studio's private meta-framework. Vendored into the customer site so `npm install` exercises its (slow) install — this models the dominant install cost (step 5a).",
+  "type": "module",
+  "main": "index.mjs",
+  "scripts": {
+    "postinstall": "node ./simulate-heavy-install.mjs"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "customer-site",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "postinstall": "node ./vendor/sites/simulate-heavy-install.mjs"
+  },
+  "dependencies": {
+    "@studio/sites": "file:./vendor/sites"
+  },
+  "devDependencies": {
+    "vite": "^6.0.0"
+  }
+}
