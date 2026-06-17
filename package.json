@@ -10,9 +10,23 @@
     "postinstall": "node ./vendor/sites/simulate-heavy-install.mjs"
   },
   "dependencies": {
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@mui/icons-material": "^6.1.6",
+    "@mui/material": "^6.1.6",
+    "@mui/x-data-grid": "^7.22.2",
+    "@tanstack/react-query": "^5.59.16",
+    "date-fns": "^4.1.0",
+    "framer-motion": "^11.11.17",
+    "lodash": "^4.17.21",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.28.0",
+    "recharts": "^2.13.3",
     "@studio/sites": "file:./vendor/sites"
   },
   "devDependencies": {
-    "vite": "^6.0.0"
+    "@vitejs/plugin-react": "^4.3.3",
+    "vite": "^6.0.1"
   }
 }
